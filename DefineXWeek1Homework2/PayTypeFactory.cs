@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace DefineXWeek1Homework2
 {
-    public class LogFactory
+    public class PayTypeFactory
     {
         public ILogger GetInstance(string classname)
         {

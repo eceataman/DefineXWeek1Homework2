@@ -22,7 +22,7 @@
             //}
 
             //log factory kullanarak çözüm
-            LogFactory logFactory = new LogFactory();
+            PayTypeFactory logFactory = new PayTypeFactory();
             iLogger = logFactory.GetInstance(PayType);
             
             lblSonuc.Text = iLogger.Pay(textBox1.Text);
